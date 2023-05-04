@@ -31,3 +31,13 @@ print('First Name Starts With Capital Letter: ', my_names[0].isupper())
     '2 is an even number' if 2 were to be passed to the function or
     '3 is an odd numebr' if 3 were to be passed to the function.
 """
+
+# MORE PRACTICE QUESTIONS
+
+"""
+1. Write a function to calculate the average of a list of numbers?
+2. Write a function to determine whether a given number is an integer or a float?
+3. Write a function to convert temperatures between Celsius and Fahrenheit?
+4. Write a function to find the maximum or minimum value in a list of numbers?
+5. Write a function to sort a list of strings or numbers in ascending or descending order?
+"""
