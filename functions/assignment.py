@@ -41,3 +41,21 @@ print('First Name Starts With Capital Letter: ', my_names[0].isupper())
 4. Write a function to find the maximum or minimum value in a list of numbers?
 5. Write a function to sort a list of strings or numbers in ascending or descending order?
 """
+
+def number_type(number):
+    if '.' in '{}'.format(number):
+        return 'Float'
+    return 'Integer'
+
+print(number_type(5))
+
+
+def findSquareRoot(number):
+    for i in range(1, number):
+        if i*i == number:
+            return i
+def findSquareRoot2(number):
+    return number ** 0.5
+
+print(findSquareRoot(102))
+print(findSquareRoot2(102))
